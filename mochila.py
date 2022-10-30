@@ -1,14 +1,5 @@
 import operator
 
-# Função para impressão dos itens (Essa função não é utilizada no momendo devido ao alto número de informações)
-def imprime_itens():
-    for i in range(len(solucao)):
-        print('=' * 30)
-        print(f'''
-        Nome: {dados[i][0]}
-        Peso: {dados[i][1]}
-        Benefício: {dados[i][2]}''')
-
 # Função que exibe a solução do algoritmo
 def imprime_solucao():
     print('-----------------------------------------------------------')
